@@ -38,3 +38,64 @@ nav button {
     padding: 17px 24px 17px 24px;
     opacity: 0.8;
 }
+
+/* Banner styles */
+.banner-container {
+    width: 1440px;
+    min-height: 652px;
+    margin: 50px auto;
+    background-image: url(./images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 998px;
+    height: 582px;
+    align-items: center;
+    margin: 26px auto;
+}
+
+
+.banner-content img {
+    width: 240px;
+    height: 240px;
+}
+
+.illustration {
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+
+.banner-content h3 {
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.banner-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.banner-content button {
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 21px 24px 21px 24px;
+}
