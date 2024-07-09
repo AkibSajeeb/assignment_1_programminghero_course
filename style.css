@@ -226,3 +226,96 @@ nav button {
     align-items: center;
     margin-bottom: 80px;
 }
+
+/* My inspiration section styles */
+.my-inspiration,
+.my-current-target,
+.my-next-target {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 88px;
+}
+
+.youtube-video {
+    height: 614px;
+    padding: 32px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    align-items: center;
+}
+
+/* My Current target Section styles */
+.my-current-target {
+    margin-top: 149px;
+}
+
+.programming-languages h2 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 8px;
+}
+
+.programming-languages p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.programming-languages a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.programming-languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 48px auto;
+}
+
+.html,
+.css,
+.javascript {
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: content;
+}
+
+.css {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.javascript {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.html-icon,
+.css-icon,
+.javascript-icon {
+    width: 39.68px;
+    height: 56px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
