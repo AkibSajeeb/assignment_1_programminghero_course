@@ -99,3 +99,130 @@ nav button {
     text-align: center;
     padding: 21px 24px 21px 24px;
 }
+
+/* Why web development section styles */
+.why-webdev {
+    width: 1140px;
+    height: 1395px;
+    margin: 74px auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-title {
+    margin-top: 80px;
+    margin-bottom: 24px;
+    width: 852px;
+    height: 39px;
+}
+
+.section-title h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.section-desc {
+    margin-bottom: 48px;
+    width: 852px;
+    height: 52px;
+}
+
+.section-desc p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* Why web-dev container styles */
+.why-webdev-container-1 {
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.leftside {
+    margin-left: 48px;
+    width: 468px;
+    align-items: center;
+}
+
+.leftside h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.leftside p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.leftside button {
+    width: 150px;
+    height: 48px;
+    border: 1px solid rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+}
+
+.rightside {
+    width: 259.56px;
+    height: 217.01px;
+}
+
+.why-webdev-container-2 {
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(-90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.leftside {
+    margin-right: 110px;
+    align-items: center;
+}
+
+.rightside {
+    width: 223.2px;
+    height: 208.85px;
+    margin-left: 48px;
+}
+
+.why-webdev-container-3 {
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
