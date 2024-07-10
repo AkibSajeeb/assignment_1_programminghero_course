@@ -248,6 +248,10 @@ nav button {
     align-items: center;
 }
 
+iframe{
+    border-radius: 16px;
+}
+
 /* My Current target Section styles */
 .my-current-target {
     margin-top: 149px;
@@ -361,6 +365,7 @@ nav button {
 /* Form style */
 #suggest-form {
     border: 1px solid rgba(13, 19, 33, 0.15);
+    box-sizing: border-box;
     border-radius: 8px;
     background: rgb(255, 255, 255);
     width: 548px;
